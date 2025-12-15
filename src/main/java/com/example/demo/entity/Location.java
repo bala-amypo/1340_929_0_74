@@ -31,5 +31,11 @@ public class Location {
     }
     public Location() {
     }
+    public Location(Long id, String name, Double latitude, Double longitude) {
+        this.id = id;
+        this.name = name;
+        this.latitude = latitude;
+        this.longitude = longitude;
+    }
     
 }
